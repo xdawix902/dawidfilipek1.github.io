@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projekt 3c</title>
+        <link rel="stylesheet" href="../css/projekt2c_style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Logowanie</h1>
+        </div>
+        
+        <div id="formularz">
+
+            <label for="Imie">Imie: </label>
+            <input class = "input" type="text" id="imie"> <br>
+
+            <label for="Nazwisko">Nazwisko: </label>
+            <input class = "input" type="text" id="Naziwsko"> <br>
+
+            <label for="bdate">Data urodzenia: </label>
+            <input class = "input" type="date" id="bdate"> <br>
+
+            <label for="haslo">Hasło: </label>
+            <input class = "input" type="password" id="haslo"> <br>
+
+            <label for="wojewodztwo">Województwo: </label>
+            <input class = "input" type="text" id="wojewodztwo"> <br>
+
+            <label for="miasto">Miasto: </label>
+            <input class = "input" type="text" id="miasto"> <br>
+
+            <label for="ulica">Ulica: </label>
+            <input class = "input" type="text" id="ulica"> <br>
+
+            <label for="email">Email: </label>
+            <input class = "input" type="email" id="email"> <br>
+
+            <label for="prawko">Prawo jazdy: </label>
+            <input type="checkbox" id="prawko"> <br>
+
+            <label for="plce">Płeć: </label>
+            <div style="padding-left:25px;">
+            <label for="man">Mężczyzna</label>
+            <input type="radio" id="man" value="man" name="plec"><br>
+            <label for="woman">Kobieta</label>
+            <input type="radio" id="woman" value="woman" name="plec"><br>
+            <label for="inne">Inne</label>
+            <input type="radio" id="inne" value="inne" name="plec"><br>
+            </div>
+
+            <label for="numerTelefonu">Numer Telefonu: </label>
+            <input class = "input" type="tel" id="numerTelefonu" placeholder="000-000-000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+
+            <label for="uwagi">Uwagi: </label>
+            <textarea class = "input" id="uwagi" rows="3" cols="25"></textarea><br><br>
+            
+            <input type = "submit" id="submit">
+
+        </div>
+
+
+    </body>
+</html>

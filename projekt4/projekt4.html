@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projekt 4</title>
+        <link rel="stylesheet" href="projekt4.css">
+    </head>
+
+    <body>
+        <div id="calc">
+            <input readonly id="display">
+
+            <div id="keys">
+                <button onClick="addToDisplay('1')">1</button>
+                <button onClick="addToDisplay('2')">2</button>
+                <button onClick="addToDisplay('3')">3</button>
+                <button onClick="addToDisplay('+', true)" class="operation-btn">+</button>
+                <button onClick="addToDisplay('4')">4</button>
+                <button onClick="addToDisplay('5')">5</button>
+                <button onClick="addToDisplay('6')">6</button>
+                <button onClick="addToDisplay('-', true)" class="operation-btn">-</button>
+                <button onClick="addToDisplay('7')" >7</button>
+                <button onClick="addToDisplay('8')">8</button>
+                <button onClick="addToDisplay('9')">9</button>
+                <button class="operation-btn" onClick="addToDisplay('*', true)">*</button>
+                <button class="operation-btn" onClick="addToDisplay('.', true)">.</button>
+                <button onClick="addToDisplay('0')">0</button>
+                <button class="operation-btn" onClick="sumOfCalculation()">=</button>
+                <button class="operation-btn" onClick="addToDisplay('/', true)">/</button>
+                <button class="operation-btn" onClick="clearDisplay()">C</button>
+            </div>
+        </div>  
+
+        <script src="projekt4.js"></script>
+    </body>
+</html>
