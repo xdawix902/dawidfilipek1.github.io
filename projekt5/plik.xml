@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faktura>
+    <faktura_nr>123</faktura_nr>
+    <numer> 2026/12/12 </numer>
+    <sprzedawca>
+        <nazwa>Firma 1</nazwa>
+        <adres>ul. Krakowskie Przedmieście 26/28, 00-927 Warszawa</adres>
+        <nip>123-456-78-90</nip>
+    </sprzedawca>
+    <nabywca>
+        <nazwa>Firma 2</nazwa>
+        <adres>ul. Nowoursynowska 166, 02-787 Warszawa</adres>
+        <nip>234-567-89-01</nip>
+    </nabywca>
+    <data_wystawienia>2025-13-12</data_wystawienia>
+</faktura>
