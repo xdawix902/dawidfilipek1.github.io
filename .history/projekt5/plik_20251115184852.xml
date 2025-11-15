@@ -16,31 +16,8 @@
         <towar1>
             <lp>1</lp>
             <nazwa>usługa nr.1</nazwa>
-            <cena>
-                <zl>40</zl>
-                <gr>99</gr>
-            </cena>
+            <cena>49.99</cena>
         </towar1>
-
-        <towar2>
-            <lp>2</lp>
-            <nazwa>usługa nr.2</nazwa>
-            <cena>
-                <zl>920</zl>
-                <gr>49</gr>
-            </cena>
-        </towar2>
-
-        <towar3>
-            <lp>3</lp>
-            <nazwa>usługa nr.3</nazwa>
-            <cena>
-                <zl>345</zl>
-                <gr>00</gr>
-            </cena>
-        </towar3>
-
-        <razem>1306,48</razem>
     </towar>
 
 </faktura>

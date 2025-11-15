@@ -78,10 +78,6 @@
     </div>
 
 
-    <div class="pole-danych" style="top: 502px; left: 610px;">
-        <xsl:value-of select="towar/razem"/>
-    </div>
-
     </xsl:template>
 
 </xsl:stylesheet>

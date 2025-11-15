@@ -65,22 +65,18 @@
 
 
     <div class="pole-danych" style="top: 275px; left: 65px;">
-        <xsl:value-of select="towar/towar3/lp"/>
+        <xsl:value-of select="towar/towar1/lp"/>
     </div>
-    <div class="pole-danych" style="top: 275px; left: 100px;">
-        <xsl:value-of select="towar/towar3/nazwa"/>
+    <div class="pole-danych" style="top: 225px; left: 100px;">
+        <xsl:value-of select="towar/towar1/nazwa"/>
     </div>
-    <div class="pole-danych" style="top: 275px; left: 880px;">
-        <xsl:value-of select="towar/towar3/cena/zl"/>
+    <div class="pole-danych" style="top: 225px; left: 880px;">
+        <xsl:value-of select="towar/towar1/cena/zl"/>
     </div>
-    <div class="pole-danych" style="top: 275px; left: 940px;">
-        <xsl:value-of select="towar/towar3/cena/gr"/>
+    <div class="pole-danych" style="top: 225px; left: 940px;">
+        <xsl:value-of select="towar/towar1/cena/gr"/>
     </div>
 
-
-    <div class="pole-danych" style="top: 502px; left: 610px;">
-        <xsl:value-of select="towar/razem"/>
-    </div>
 
     </xsl:template>
 
