@@ -1,0 +1,89 @@
+body{
+    padding: 0px;
+    margin: 0;
+    background-color: rgb(40, 48, 97);
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(28, 37, 88);
+    font-size: 1.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formularz{
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(17, 17, 17);
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(36, 44, 90);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(29, 35, 71);
+}
+
+.formularz a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+}
+
+.formularz a:hover{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+.formularz2{
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(36, 44, 90);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(29, 35, 71);
+    font-size: 1.5rem;
+}
+
+.formularz2 a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    
+}
+
+.formularz2 a:hover{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+#submit{
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(28, 37, 88);
+    color: white;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgb(40, 46, 85);
+    color: rgb(197, 197, 197);
+}
+
+
+.input{
+    background-color: wheat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

@@ -23,11 +23,11 @@ body{
     margin:0;
     padding: 0;
     background-color: rgb(28, 37, 88);
+    color:red;
 }
 
 .naglowki{
     display:inline-block;
-    color: rgb(76, 0, 255);
 }
 
 .naglowki:hover{

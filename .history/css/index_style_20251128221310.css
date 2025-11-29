@@ -27,7 +27,7 @@ body{
 
 .naglowki{
     display:inline-block;
-    color: rgb(76, 0, 255);
+    color: blue;
 }
 
 .naglowki:hover{
